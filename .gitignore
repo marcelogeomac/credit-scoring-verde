@@ -1,0 +1,31 @@
+# Ambientes Virtuais (Obrigatório ignorar)
+venv/
+env/
+ENV/
+.env
+
+# Python (Arquivos temporários)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Dados Geográficos (Geralmente são pesados)
+data/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.zip
+*.tif
+*.raster
+
+# Cursor e VS Code
+.vscode/
+.cursor/
+
+# Logs e arquivos do sistema
+*.log
+.DS_Store
+Thumbs.db
